@@ -1,0 +1,147 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #1B0067 ;
+  }
+  
+  /* Start Page */
+  
+  .title-heading{
+    color: #F5F8FA;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  .start-btn {
+    margin: 180px;
+    padding: 2rem 0;
+    border-radius: 20px;
+    font-size: 3rem;
+    width: 40%;
+    background-color: #F5F8FA ;
+  }
+  
+  .footer {
+    font-size: 2rem;
+    margin-top: 65px;
+  }
+  
+  .footer-text {
+    color: #fff;
+    font-weight: bold;
+    margin-right: 2%;
+  }
+  
+  /* Game Page */
+  
+  .game-page {
+    display: none;
+  }
+  
+  #level-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin:  2%;
+    color: #fff;
+  }
+  
+  .scores h3 {
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 10% 2%;
+  }
+    
+  .container {
+    position: relative;
+  }
+  
+  /* Four Color Buttons */
+  .btn {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+  
+  .hint-btn {
+    background-color: #fff;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    padding: 1rem 2rem;
+  }
+  
+  .hint-btn:hover {
+    background-color: #F1F1F6;
+  }
+  
+  /* Game Over */
+    
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  /* Restart */
+  
+  .restart {
+    display: none;
+  }
+  
+  .restart-btn {
+    margin: 180px;
+    padding: 2rem 0;
+    border-radius: 20px;
+    font-size: 3rem;
+    width: 40%;
+    background-color: #F5F8FA ;
+  }
+  
+  /* Buttons Colors */
+    
+  .red {
+    background-color: red;
+    border-radius:20px 320px 20px 20px;
+  }
+    
+  .green {
+    background-color: green;
+    border-radius:320px 20px 20px;
+  }
+    
+  .blue {
+    background-color: blue;
+    border-radius:20px 20px 320px 20px;
+  }
+    
+  .yellow {
+    background-color: yellow;
+    border-radius:20px 20px 20px 320px;
+  }
+  
+  /* Animation */
+    
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
+  @media screen and (max-width: 720px){
+    .container {
+      margin-top: 3%;
+    }
+  
+    .start-btn {
+      font-size: 2rem;
+      margin: 150px;
+    }
+  
+    .restart-btn {
+      font-size: 2rem;
+      margin: 150px;
+    }
+  }
